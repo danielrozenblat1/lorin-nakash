@@ -1,0 +1,48 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:2% auto;
+}
+
+.button {
+  background-color: #fffdf9;
+  color: #c9b995;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  box-shadow: 
+    5px 5px 10px rgba(214, 198, 155, 0.3),
+    -5px -5px 10px rgba(255, 255, 255, 0.5),
+    inset 3px 3px 6px rgba(214, 198, 155, 0.4),
+    inset -3px -3px 6px rgba(214, 198, 155, 0.4);
+}
+
+.button:hover {
+transform: translateY(-5px);
+}
+
+.button:active {
+  box-shadow: 
+    inset 5px 5px 10px rgba(214, 198, 155, 0.3),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive styles remain unchanged */
+@media (max-width: 350px) {
+  .button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .button {
+    font-size: 1.2rem;
+    padding: 9px 18px;
+  }
+}
