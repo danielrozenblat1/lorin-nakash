@@ -13,6 +13,7 @@ import WhoAmI from './components/me/Me';
 
 function App() {
   return <>
+  <div class="app">
   <NavBarNew/>
   <FirstScreen/>
   <SecondScreen/>
@@ -23,6 +24,7 @@ function App() {
 <ThirdScreen/>
 
 <ByMe/>
+</div>
   </>
 }
 

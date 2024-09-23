@@ -111,11 +111,11 @@ const NavBarNew = () => {
           ))}
         </div>
       )}
-      {windowWidth > 1050 && (
+      {/* {windowWidth > 1050 && (
         <div className={styles.logo}>
           <img src={logo} alt="Logo" />
         </div>
-      )}
+      )} */}
       <div className={styles.socialIcons}>
         <a href="https://www.instagram.com/lorinnailss/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         <a onClick={handleClick}><FaWhatsapp /></a>

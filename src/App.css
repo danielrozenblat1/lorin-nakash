@@ -3,3 +3,6 @@ body{
     overflow-x: hidden;
     background: linear-gradient(135deg, rgba(245,242,232,1) 0%, rgba(249,247,241,1) 15%, rgba(245,242,232,1) 30%, rgba(249,248,242,1) 45%, rgba(245,242,232,1) 55%, rgba(249,248,242,1) 70%, rgba(245,242,232,1) 85%, rgba(249,248,242,1) 100%);
 }
+.app{
+    overflow-x: hidden;
+}

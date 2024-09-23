@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./FirstScreen.module.css";
 import { ArrowDown} from "lucide-react";
-import check from "../videos/בדיקה.mp4"
+import check from "../videos/לורין נקש.mp4"
 const FirstScreen = () => {
   return (
     <div className={styles.container}>
