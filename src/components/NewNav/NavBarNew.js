@@ -41,7 +41,7 @@ const NavBarNew = () => {
   }, []);
 
   const handleClick = () => {
-    const phoneNumber = "+972523574035";
+    const phoneNumber = "+972547735375";
     const message = "היי לורין ,אני רוצה לשמוע ממך עוד על..";
     const encodedMessage = encodeURIComponent(message);
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
@@ -60,7 +60,7 @@ const NavBarNew = () => {
     }
   };
 
-  const menuItems = ['קורס לק גל', 'שאלות תשובות', 'מי אני'];
+  const menuItems = ['קורס מתחילות','השתלמות העלאת רמה', 'שאלות תשובות', 'מי אני'];
 
   return (
     <nav className={`${styles.navbar} ${isSticky ? styles.sticky : ''}`}>

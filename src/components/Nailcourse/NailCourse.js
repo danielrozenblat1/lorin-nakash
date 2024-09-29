@@ -13,13 +13,13 @@ const NailCourse = () => {
   const courseContentItems = [
     { text: "את כל הכלים הנדרשים", icon: BookOpen },
     { text: "את השיטה הייחודית שלי", icon: FileText },
-    { text: "טכניקות להוצאה מושלמת ואיכותית", icon: PenTool },
+    { text: "טכניקות לתוצאה מושלמת ואיכותית", icon: PenTool },
     { text: "איך להגיע לתוצאות הכי נקיות והכי יפות", icon: Check }
   ];
 
   const courseTopics = [
     { text: "אנטומיה של הציפורן", icon: Fingerprint },
-    { text: "מחלות והופעות בציפורן וכמובן דרכי התמודדות", icon: Stethoscope },
+    { text: "מחלות ותוצאות בציפורן וכמובן דרכי התמודדות", icon: Stethoscope },
     { text: "חיטוי ועיקור כלי העבודה ונהלי ניקיון", icon: Stethoscope }
   ];
 
@@ -38,7 +38,7 @@ const NailCourse = () => {
   ];
 
   return (
-    <div className={styles.container} id="קורס לק גל">
+    <div className={styles.container} id="קורס מתחילות">
       <h1 className={styles.title}>קורס מתחילות לק ג'ל</h1>
       
       <div className={styles.card}>
@@ -117,7 +117,7 @@ const NailCourse = () => {
         </p>
       </div>
 
-      <Button text="לורין אני רוצה לשמוע עוד"/>
+      <Button text="לורין אני רוצה לשמוע עוד" message="היי לורין , מעניין אותי לשמוע עוד על הקורסים שאת מעבירה"/>
     </div>
   );
 };

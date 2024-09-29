@@ -10,6 +10,8 @@ import ThirdScreen from './screens/ThirdScreen';
 import ByMe from './components/ByMe/ByMe';
 import ForthScreen from './screens/ForthScreen';
 import WhoAmI from './components/me/Me';
+import Special from './components/recommends/Special';
+import NailHishtalmut from './components/NailHishtalmut/NailHishtalmut';
 
 function App() {
   return <>
@@ -19,8 +21,10 @@ function App() {
   <SecondScreen/>
   <ForthScreen/>
   <NailCourse/>
+  <NailHishtalmut/>
   <WhoAmI/>
   <Bikorot/>
+  <Special/>
 <ThirdScreen/>
 
 <ByMe/>
