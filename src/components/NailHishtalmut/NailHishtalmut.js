@@ -5,17 +5,17 @@ import Button from '../button/Button';
 
 const NailHishtalmut = () => {
   const courseTopics = [
-    { text: "נחשפות לחומרים שונים ולומדות להתאים את החומר הנכון לכל סוג ציפורן", icon: PenTool },
-    { text: "לומדות ומדייקות את המניקור, מהסרה מדוייקת בלי לפגוע בציפורן ועד ניקיון מוחלט של כל איזור העור", icon: Scissors },
-    { text: "לומדות לגזור מקצועי עם מספרי מניקור", icon: Scissors },
-    { text: "לומדות ומחדדות את המבנה האנטומי בטכניקה הכי קלה ומהירה שאפשר", icon: PenTool },
-    { text: "לומדות למרוח צמוד ומדוייק לקוטיקולה", icon: PenTool },
-    { text: "לומדות לסגור עבודה עם טופ למראה מבריק במיוחד ועוברות על פינישים לתוצאה ברמה גבוהה לעבודות קטלוג", icon: PenTool },
+    { text: "חשיפה לחומרים שונים והתאמה של החומר הנכון לכל סוג ציפורן", icon: PenTool },
+    { text: "דיוק של המניקור, מהסרה מדוייקת בלי לפגוע בציפורן ועד ניקיון מוחלט של כל איזור העור", icon: Scissors },
+    { text: "גזירה מקצועית עם מספרי מניקור", icon: Scissors },
+    { text: "חידוד המבנה האנטומי בטכניקה חדשה וסופר מיוחדת", icon: PenTool },
+    { text: "מריחה צמודה ומדוייקת לקוטיקולה", icon: PenTool },
+    { text: "סגירת עבודה עם טופ למראה מבריק במיוחד + פינישים לתוצאה ברמה גבוהה לעבודות קטלוג", icon: PenTool },
   ];
 
   const bonuses = [
-    { text: "לומדות זוויות צילום, טיפים לצילום מקצועי של הציפורניים, עבודה עם עדשות תאורה רקעים וכו׳", icon: Camera },
-    { text: "מקבלות ליווי מלא שלי לכל שאלה שעולה גם אחרי הקורס", icon: MessageCircle },
+    { text: "למידת זוויות צילום, טיפים לצילום מקצועי של הציפורניים, עבודה עם עדשות תאורה רקעים וכו׳", icon: Camera },
+    { text: "ליווי מלא שלי לכל שאלה שעולה גם אחרי הקורס", icon: MessageCircle },
   ];
 
   return <>
@@ -30,7 +30,7 @@ const NailHishtalmut = () => {
       </div>
 
       <div className={styles.card}>
-        <h2 className={styles.sectionTitle}>בהשתלמות אתן</h2>
+        <h2 className={styles.sectionTitle}>מה נלמד?</h2>
         <ul className={styles.list}>
           {courseTopics.map((item, index) => (
             <li key={index} className={styles.listItem}>
@@ -42,7 +42,7 @@ const NailHishtalmut = () => {
       </div>
 
       <div className={styles.card}>
-        <h2 className={styles.sectionTitle}>2 בונוסים:</h2>
+        <h2 className={styles.sectionTitle}>ו-2 בונוסים מיוחדים</h2>
         <ul className={styles.list}>
           {bonuses.map((item, index) => (
             <li key={index} className={styles.listItem}>

@@ -3,9 +3,9 @@ import result1 from "../../images/לורין הודיה נקש עבודות 1.pn
 import result2 from "../../images/לורין הודיה נקש עבודות 2.png"
 import result3 from "../../images/לורין הודיה נקש עבודות 3.png"
 import result4 from "../../images/לורין הודיה נקש עבודות 4.png"
-
-
-
+import result5 from "../../images/לורין הודיה נקש עבודות 5.png"
+import result6 from "../../images/לורין הודיה נקש עבודות 6.png"
+import result7 from "../../images/לורין הודיה נקש עבודות 7.png"
 
 
 
@@ -43,6 +43,18 @@ const Special=()=>{
         {
           type: 'image',
           src: result3,
+        },
+        {
+          type: 'image',
+          src: result5,
+        },
+        {
+          type: 'image',
+          src: result6,
+        },
+        {
+          type: 'image',
+          src: result7,
         },
 
         ];  
