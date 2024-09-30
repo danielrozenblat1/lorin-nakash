@@ -19,13 +19,13 @@ const NailCourse = () => {
 
   const courseTopics = [
     { text: "אנטומיה של הציפורן", icon: Fingerprint },
-    { text: "מחלות ותוצאות בציפורן וכמובן דרכי התמודדות", icon: Stethoscope },
+    { text: "מחלות ותופעות בציפורן וכמובן דרכי התמודדות", icon: Stethoscope },
     { text: "חיטוי ועיקור כלי העבודה ונהלי ניקיון", icon: Stethoscope }
   ];
 
   const nailPreparation = [
     { text: "הסרה והחלקה של הציפורן", icon: Scissors },
-    { text: "מניקור ידני ומכשיר", icon: PenTool },
+    { text: "מניקור מכשירים ומשולב", icon: PenTool },
     { text: "שיוף צורה בדרך הנכונה", icon: Ruler },
     { text: "חיתוך העור באמצעות מספריים", icon: Scissors }
   ];
@@ -108,8 +108,7 @@ const NailCourse = () => {
 
       <div className={styles.card}>
         <p className={styles.footer}>
-          במהלך הקורס אלמד אותך בנוסף לצלם את העבודות שלך איתן תוכלי ליצור מיני קטלוג של העבודות
-          אותן תוכלי לפרסם.
+          במהלך הקורס אלמד אותך בונוס קטן ממני לצלם את העבודות שלך איתן תוכלי ליצור מיני קטלוג אותו תוכלי לפרסם.
         </p>
         <p className={styles.footer}>
           כל תלמידה תקבל בנוסף חוברת לימודים אישית מסודרת עם כל החומר שלמדנו, תעודת סיום
