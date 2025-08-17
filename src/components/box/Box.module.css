@@ -1,0 +1,147 @@
+.box{
+  width:400px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  margin: 2% auto;
+}
+.description{
+  font-size:1.1rem;
+  font-family: "AssistantR";
+  text-align: center;
+  margin:2% auto;
+  direction:rtl;
+  width:90%;
+  text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.158);
+  color: #000000; /* Changed to a more readable brown */
+}
+.title {
+  font-size:2rem;
+  font-family: "Assistant";
+  text-align: center;
+  margin: 2% auto;
+  direction: rtl;
+  background: linear-gradient(135deg, 
+    #ffdc90,  /* בז' מוזהב */
+    #d6c69b,  /* זהב בהיר */
+    #d6c69b,  /* זהב בינוני */
+    #d6c69b,  /* זהב קלאסי */
+    #ffdc90   /* זהב עדין בהיר */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(242, 222, 175, 0.2);
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  width:30%;
+  margin:0 auto;
+}
+@media only screen and (max-width: 350px){
+  .box{
+      width:300px;
+      height:auto;
+      display: flex;
+      flex-direction: column;
+      margin:20px auto;
+  }
+  .description{
+      font-size:1rem;
+      font-family: "AssistantR";
+      text-align: center;
+      margin:2% auto;
+      direction:rtl;
+      width:90%;
+      text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.158);
+ 
+    }
+    .title{
+      font-size:1.8rem;
+      font-family: "Assistant";
+      text-align: center;
+      margin:4% auto;
+      direction:rtl;
+      width:95%;
+      text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.158);
+   
+    }
+    .icon{
+      display: flex;
+      justify-content: center;
+      width:30%;
+      margin:2% auto;
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 450px){
+  .box{
+      width:310px;
+      height:auto;
+      display: flex;
+      flex-direction: column;
+      margin:15px auto;
+  }
+  .description{
+      font-size:1.1rem;
+      font-family: "AssistantR";
+      text-align: center;
+      margin:2% auto;
+      direction:rtl;
+      width:90%;
+      text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.158);
+     
+    }
+    .title{
+      font-size:1.8rem;
+      font-family: "Assistant";
+      text-align: center;
+      margin:3% auto;
+      direction:rtl;
+      width:100%;
+      text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.158);
+   
+    }
+    .icon{
+      display: flex;
+      justify-content: center;
+      width:30%;
+      margin:2% auto;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 550px){
+  .box{
+      width:350px;
+      height:auto;
+      display: flex;
+      flex-direction: column;
+      margin:3% auto;
+  }
+  .description{
+      font-size:1.15rem;
+      font-family: "AssistantR";
+      text-align: center;
+      margin:2% auto;
+      direction:rtl;
+      width:95%;
+      text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.158);
+      color: #6B4423; /* Changed to match the new description color */
+    }
+    .title{
+      font-size:2.2rem;
+      font-family: "Assistant";
+      text-align: center;
+      margin:3% auto;
+      direction:rtl;
+     
+      text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.158);
+      color: #5C3D2E; /* Changed to match the new title color */
+    }
+    .icon{
+      display: flex;
+      justify-content: center;
+      width:25%;
+      margin:2% auto;
+    }
+}

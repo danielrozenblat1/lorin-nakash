@@ -1,0 +1,294 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.imageRight, .imageLeft {
+  width: 100%;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  width: 250px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.textContainer {
+  max-width: 500px;
+  direction: rtl;
+  text-align: right;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-family: "Assistant";
+  direction: rtl;
+  background: linear-gradient(135deg, 
+    #e4bf6e, #c7b277, #a89254, #d6c69b, #cdac65
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(242, 222, 175, 0.2);
+  margin-bottom: 0.5rem; /* הוספנו מרווח תחתון קטן לכותרת */
+}
+
+.description {
+  font-family: 'AssistantR', sans-serif;
+  color: #000000;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  width:100%;
+  margin-top: 0; /* ביטלנו את המרווח העליון של התיאור */
+}
+
+.explain {
+  font-family: "AssistantR";
+  font-size: 1.5rem;
+  margin: 2% auto;
+  text-align: center;
+  direction: rtl;
+}
+
+.bold {
+  font-family: "Assistant";
+  font-size: 2.5rem;
+  margin: 2% auto;
+  text-align: center;
+  direction: rtl;
+}
+
+.boldR {
+  font-family: "Assistant";
+  font-size: 1.5rem;
+  margin: 1% auto;
+  color: #B76E79;
+  text-decoration: underline;
+  text-align: center;
+  direction: rtl;
+}
+
+@media (max-width: 350px) {
+  .container { 
+    gap: 1rem; 
+    padding: 1rem; 
+    max-width: 100%; 
+  }
+  .row { 
+    gap: 1rem; 
+  }
+  .imageContainer { 
+    width: 120px;
+  }
+  .textContainer { 
+    max-width: calc(100% - 120px - 1rem); 
+  }
+  .title { 
+    font-size: 1.1rem; 
+    margin-bottom: 0.2rem; /* הקטנו את המרווח התחתון במסכים קטנים */
+  }
+  .description { 
+    font-size: 0.9rem; 
+    line-height: 1.3;
+  }
+  .explain { 
+    font-size: 1.05rem; 
+  }
+  .bold { 
+    font-size: 1.4rem; 
+  }
+  .boldR { 
+    font-size: 1.2rem; 
+  }
+}
+
+/* שאר ה-media queries נשארים ללא שינוי */
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .container { 
+    gap: 1.5rem; 
+    padding: 1.5rem; 
+    max-width: 100%; 
+  }
+  .row { 
+    gap: 1.5rem; 
+  }
+  .imageContainer { 
+    width: 150px;
+  }
+  .textContainer { 
+    max-width: calc(100% - 150px - 1.5rem); 
+  }
+  .title { 
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem; /* הקטנו את המרווח התחתון במסכים קטנים-בינוניים */
+  }
+  .description { 
+    font-size: 1rem; 
+  }
+  .explain { 
+    font-size: 1.1rem; 
+  }
+  .bold { 
+    font-size: 2rem; 
+  }
+  .boldR { 
+    font-size: 1.5rem; 
+  }
+}
+
+@media (max-width: 350px) {
+  .container { 
+    gap: 1rem; 
+    padding: 1rem; 
+    max-width: 100%; 
+  }
+  .row { 
+    gap: 1rem; 
+  }
+  .imageContainer { 
+    width: 120px;  /* הגדלנו את רוחב התמונה */
+  }
+  .textContainer { 
+    max-width: calc(100% - 120px - 1rem); 
+  }
+  .title { 
+    font-size: 1.1rem; 
+    margin-bottom: 0.3rem;
+  }
+  .description { 
+    font-size: 0.9rem; 
+    line-height: 1.3;
+  }
+  .explain { 
+    font-size: 1.05rem; 
+  }
+  .bold { 
+    font-size: 1.4rem; 
+  }
+  .boldR { 
+    font-size: 1.2rem; 
+  }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .container { 
+    gap: 1.5rem; 
+    padding: 1.5rem; 
+    max-width: 100%; 
+  }
+  .row { 
+    gap: 1.5rem; 
+  }
+  .imageContainer { 
+    width: 150px;  /* הגדלנו את רוחב התמונה */
+  }
+  .textContainer { 
+    max-width: calc(100% - 150px - 1.5rem); 
+  }
+  .title { 
+    font-size: 1.2rem;
+
+  }
+  .description { 
+    font-size: 1rem; 
+  }
+  .explain { 
+    font-size: 1.1rem; 
+  }
+  .bold { 
+    font-size: 2rem; 
+  }
+  .boldR { 
+    font-size: 1.5rem; 
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .container { 
+    max-width: 500px; 
+    gap: 2rem;
+  }
+  .row { 
+    gap: 1.5rem; 
+  }
+  .imageContainer { 
+    width: 180px;  /* הגדלנו את רוחב התמונה */
+  }
+  .textContainer { 
+    max-width: calc(100% - 180px - 1.5rem); 
+  }
+  .title { 
+    font-size: 1.3rem; 
+  }
+  .description { 
+    font-size: 1rem; 
+  }
+  .explain { 
+    font-size: 1.2rem; 
+  }
+  .bold { 
+    font-size: 1.8rem; 
+  }
+  .boldR { 
+    font-size: 1.2rem; 
+  }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+  .container { max-width: 550px; }
+  .imageContainer { width: 200px; }  /* הגדלנו את רוחב התמונה */
+  .title { font-size: 1.45rem; }
+  .description { font-size: 1.08rem; }
+  .explain { font-size: 1.4rem; }
+  .bold { font-size: 2.2rem; }
+  .boldR { font-size: 1.4rem; }
+}
+
+@media (min-width: 650px) and (max-width: 750px) {
+  .container { max-width: 600px; }
+  .imageContainer { width: 220px; }  /* הגדלנו את רוחב התמונה */
+  .title { font-size: 1.47rem; }
+  .description { font-size: 1.09rem; }
+  .explain { font-size: 1.45rem; }
+  .bold { font-size: 2.35rem; }
+  .boldR { font-size: 1.45rem; }
+}
+
+@media (min-width: 750px) and (max-width: 850px) {
+  .container { max-width: 700px; }
+  .imageContainer { width: 240px; }  /* הגדלנו את רוחב התמונה */
+  .title { font-size: 1.48rem; }
+  .description { font-size: 1.095rem; }
+  .explain { font-size: 1.47rem; }
+  .bold { font-size: 2.4rem; }
+  .boldR { font-size: 1.47rem; }
+}
+
+@media (min-width: 850px) {
+  .imageContainer { width: 250px; }  /* הגדלנו את רוחב התמונה */
+  .title { font-size: 1.49rem; }
+  .description { font-size: 1.098rem; }
+  .explain { font-size: 1.48rem; }
+  .bold { font-size: 2.45rem; }
+  .boldR { font-size: 1.48rem; }
+}
